@@ -1,4 +1,4 @@
-package JAVA.algorithm;
+package JAVA.algorithm.dfs;
 
 public class Main {
     public static void main(String[] args) {

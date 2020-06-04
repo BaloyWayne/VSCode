@@ -1,4 +1,4 @@
-package JAVA.algorithm;
+package JAVA.algorithm.dfs;
 
 /*
 99. 恢复二叉搜索树

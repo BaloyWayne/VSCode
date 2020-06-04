@@ -14,7 +14,7 @@
             "type": "java",
             "name": "Debug (Launch)-Main<VSCode_c49fec2>",
             "request": "launch",
-            "mainClass": "JAVA.algorithm.Main",
+            "mainClass": "JAVA.algorithm.dfs.Main",
             "projectName": "VSCode_c49fec2"
         }
     ]

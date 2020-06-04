@@ -1,4 +1,4 @@
-package JAVA.algorithm;
+package JAVA.algorithm.dfs;
 
 /*
 98. 验证二叉搜索树
