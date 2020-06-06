@@ -12,6 +12,7 @@ import java.util.*;
 public class PathSum {
     private List<List<Integer>> list = new ArrayList<>();
 
+    @SuppressWarnings("unchecked")
     private void dfs(TreeNode root, int sum, ArrayList<Integer> temp) {
         if (root != null) {
             if (root.left == null && root.right == null) {
