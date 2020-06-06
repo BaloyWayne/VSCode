@@ -17,7 +17,7 @@ public class PathSum {
             if (root.left == null && root.right == null) {
                 if (root.val == sum) {
                     temp.add(root.val);
-                    list.add((ArrayList) temp.clone());
+                    list.add((ArrayList<Integer>) temp.clone());
                     temp.remove(temp.size() - 1);
                 }
                 return;
