@@ -4,8 +4,11 @@ package JAVA.algorithm.dfs;
 
 public class Main {
     public static void main(String[] args) {
-        int i=1;
-        char c=(char)(i+'a');
-        System.out.println(c);
+        FindOrder f=new FindOrder();
+        int[][] prerequisites=new int[][]{{1,0}};
+        int[] temp=f.findOrder(2, prerequisites);
+        for(int i=0;i<temp.length;i++){
+            System.out.println(temp[i]);
+        }
     }
 }
